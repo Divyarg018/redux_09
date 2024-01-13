@@ -17,6 +17,7 @@ function updateStreet(street) {
     }
 }
 
+
 function reducer(state = initialState, action) {
     switch (action.type) {
         case STREET_UPDATED:
